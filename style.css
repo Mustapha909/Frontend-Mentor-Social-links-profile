@@ -82,3 +82,17 @@ li:hover {
   color: hsl(0, 0%, 12%);
   cursor: default;
 }
+
+@media (max-width: 768px) and (min-width: 457px) {
+  .card {
+    width: 456px;
+    height: 611px;
+  }
+}
+
+@media (max-width: 456px) and (min-width: 327px) {
+  .card {
+    width: 327px;
+    height: 579px;
+]  }
+}
